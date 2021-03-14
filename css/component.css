@@ -1,6 +1,6 @@
 /* Common styles */
 
-.pricing {
+.listing {
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-wrap: wrap;
@@ -11,7 +11,7 @@
 	margin: 0 auto 3em;
 }
 
-.pricing__item {
+.listing__item {
 	position: relative;
 	display: -webkit-flex;
 	display: flex;
@@ -24,7 +24,7 @@
 	flex: 0 1 330px;
 }
 
-.pricing__feature-list {
+.listing__feature--list {
 	text-align: left;
 }
 
@@ -41,7 +41,7 @@
 /* Individual styles */
 
 /* Sonam */
-.pricing--sonam .pricing__item {
+.listing--sonam .listing__item {
 	margin: 1em;
 	padding: 2em;
 	cursor: default;
@@ -52,11 +52,11 @@
 	transition: background 0.3s;
 }
 
-.pricing--sonam .pricing__item:hover {
+.listing--sonam .listing__item:hover {
 	background: #141315;
 }
 
-.pricing--sonam .pricing__title {
+.listing--sonam .listing__title {
 	font-size: 2em;
 	width: 100%;
 	margin: 0 0 0.25em;
@@ -64,22 +64,22 @@
 	border-bottom: 3px solid rgb(27, 26, 28);
 }
 
-.pricing--sonam .pricing__price {
+.listing--sonam .pricing__price {
 	color: #E06060;
 	font-size: 1.75em;
 	padding: 1em 0 0.75em;
 }
 
-.pricing--sonam .pricing__sentence {
+.listing--sonam .pricing__sentence {
 	font-weight: bold;
 }
 
-.pricing--sonam .pricing__feature-list {
+.listing--sonam .listing__feature--list {
 	margin: 0;
 	padding: 1em 1.25em 2em;
 }
 
-.pricing--sonam .pricing__action {
+.listing--sonam .pricing__action {
 	font-weight: bold;
 	margin-top: auto;
 	padding: 0.75em 2em;
@@ -89,13 +89,13 @@
 	transition: background 0.3s;
 }
 
-.pricing--sonam .pricing__action:hover,
-.pricing--sonam .pricing__action:focus {
+.listing--sonam .pricing__action:hover,
+.listing--sonam .pricing__action:focus {
 	background: #BD3C3C;
 }
 
 /* Jinpa */
-.pricing--jinpa .pricing__item {
+.listing--jinpa .listing__item {
 	font-family: 'Sahitya', serif;
 	margin: 1.5em 0;
 	padding: 2em;
@@ -106,24 +106,24 @@
 	transition: background-color 0.6s, color 0.3s;
 }
 
-.pricing--jinpa .pricing__item:nth-child(2) {
+.listing--jinpa .listing__item:nth-child(2) {
 	border-right: none;
 	border-left: none;
 }
 
-.pricing--jinpa .pricing__item:hover {
+.listing--jinpa .listing__item:hover {
 	color: #444;
 	background: #CBFFC8;
 }
 
-.pricing--jinpa .pricing__title {
+.listing--jinpa .listing__title {
 	font-size: 2em;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 }
 
-.pricing--jinpa .pricing__price {
+.listing--jinpa .pricing__price {
 	font-size: 1.45em;
 	font-weight: bold;
 	line-height: 95px;
@@ -136,31 +136,31 @@
 	transition: color 0.3s, background 0.3s;
 }
 
-.pricing--jinpa .pricing__item:first-child .pricing__price {
+.listing--jinpa .listing__item:first-child .pricing__price {
 	background: #eac36e;
 }
 
-.pricing--jinpa .pricing__item:nth-child(2) .pricing__price {
+.listing--jinpa .listing__item:nth-child(2) .pricing__price {
 	background: #eaa36e;
 }
 
-.pricing--jinpa .pricing__item:hover .pricing__price {
+.listing--jinpa .listing__item:hover .pricing__price {
 	color: #fff;
 	background: #82C57E;
 }
 
-.pricing--jinpa .pricing__sentence {
+.listing--jinpa .pricing__sentence {
 	font-weight: bold;
 }
 
-.pricing--jinpa .pricing__feature-list {
+.listing--jinpa .listing__feature--list {
 	margin: 0;
 	padding: 1em 1em 2em 1em;
 	list-style: none;
 	text-align: center;
 }
 
-.pricing--jinpa .pricing__action {
+.listing--jinpa .pricing__action {
 	font-weight: bold;
 	margin-top: auto;
 	padding: 0.75em 2em;
@@ -173,30 +173,30 @@
 	transform: translate3d(0, -15px, 0);
 }
 
-.pricing--jinpa .pricing__item:hover .pricing__action {
+.listing--jinpa .listing__item:hover .pricing__action {
 	opacity: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 }
 
-.pricing--jinpa .pricing__action:hover,
-.pricing--jinpa .pricing__action:focus {
+.listing--jinpa .pricing__action:hover,
+.listing--jinpa .pricing__action:focus {
 	background: #6EA76B;
 }
 
 @media screen and (max-width: 60em) {
-	.pricing--jinpa .pricing__item {
+	.listing--jinpa .listing__item {
 		max-width: none;
 		width: 90%;
 		flex: none;
 	}
-	.pricing--jinpa .pricing__item:nth-child(2) {
+	.listing--jinpa .listing__item:nth-child(2) {
 		border: 1px solid #fff;
 	}
 }
 
 /* Tenzin */
-.pricing--tenzin .pricing__item {
+.listing--tenzin .listing__item {
 	margin: 1em;
 	padding: 2em 2.5em;
 	text-align: left;
@@ -207,35 +207,35 @@
 	transition: border-color 0.3s;
 }
 
-.pricing--tenzin .pricing__item:hover {
+.listing--tenzin .listing__item:hover {
 	border-color: #3e62e0;
 }
 
-.pricing--tenzin .pricing__title {
+.listing--tenzin .listing__title {
 	font-size: 1em;
 	margin: 0 0 1em;
 }
 
-.pricing--tenzin .pricing__price {
+.listing--tenzin .pricing__price {
 	font-size: 2em;
 	font-weight: bold;
 	padding: 0.5em 0 0.75em;
 	border-top: 3px solid rgba(139, 144, 157, 0.18);
 }
 
-.pricing--tenzin .pricing__currency {
+.listing--tenzin .pricing__currency {
 	font-size: 0.5em;
 	vertical-align: super;
 }
 
-.pricing--tenzin .pricing__sentence {
+.listing--tenzin .pricing__sentence {
 	font-weight: bold;
 	padding: 0 0 0.5em;
 	color: #9CA0A9;
 	border-bottom: 3px solid rgba(139, 144, 157, 0.18);
 }
 
-.pricing--tenzin .pricing__feature-list {
+.listing--tenzin .listing__feature--list {
 	font-size: 0.85em;
 	font-style: italic;
 	margin: 0;
@@ -245,7 +245,7 @@
 	color: #8b909d;
 }
 
-.pricing--tenzin .pricing__action {
+.listing--tenzin .pricing__action {
 	font-weight: bold;
 	margin-top: auto;
 	padding: 1em 2em;
@@ -256,20 +256,20 @@
 	transition: background-color 0.3s;
 }
 
-.pricing--tenzin .pricing__action:hover,
-.pricing--tenzin .pricing__action:focus {
+.listing--tenzin .pricing__action:hover,
+.listing--tenzin .pricing__action:focus {
 	background-color: #3b5ac5;
 }
 
 /* Yama */
-.pricing--yama .pricing__item {
+.listing--yama .listing__item {
 	margin: 1em;
 	padding: 0 0 2em;
 	color: #fff;
 	background: #1e1c20;
 }
 
-.pricing--yama .pricing__title {
+.listing--yama .listing__title {
 	font-family: 'Playfair Display', serif;
 	font-size: 2.35em;
 	font-weight: 900;
@@ -284,12 +284,12 @@
 	color: #0f0e0f;
 }
 
-.pricing--yama .pricing__sentence {
+.listing--yama .pricing__sentence {
 	margin-bottom: 2em;
 	color: #555357;
 }
 
-.pricing--yama .pricing__price {
+.listing--yama .pricing__price {
 	font-size: 2em;
 	font-weight: bold;
 	position: relative;
@@ -303,11 +303,11 @@
 	transition: color 0.3s;
 }
 
-.pricing--yama .pricing__item:hover .pricing__price {
+.listing--yama .listing__item:hover .pricing__price {
 	color: #fff;
 }
 
-.pricing--yama .pricing__price::before {
+.listing--yama .pricing__price::before {
 	content: '';
 	position: absolute;
 	z-index: -1;
@@ -323,20 +323,20 @@
 	transform: translate3d(-150%,0,0) skewX(40deg);
 }
 
-.pricing--yama .pricing__item:hover .pricing__price::before {
+.listing--yama .listing__item:hover .pricing__price::before {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0) skewX(0deg);
 	transform: translate3d(0,0,0) skewX(0deg);
 }
 
-.pricing--yama .pricing__period {
+.listing--yama .pricing__period {
 	font-size: 0.5em;
 	font-weight: normal;
 	display: block;
 	color: #2a272c;
 }
 
-.pricing--yama .pricing__feature-list {
+.listing--yama .listing__feature--list {
 	margin: 0;
 	padding: 2em 1em;
 	list-style: none;
@@ -344,7 +344,7 @@
 	color: #6a6563;
 }
 
-.pricing--yama .pricing__action {
+.listing--yama .pricing__action {
 	font-weight: bold;
 	margin: 0 2em;
 	padding: 1em 2em;
@@ -354,14 +354,14 @@
 	transition: background-color 0.3s, color 0.3s;
 }
 
-.pricing--yama .pricing_  _action:hover,
-.pricing--yama .pricing__action:focus {
+.listing--yama .pricing_  _action:hover,
+.listing--yama .pricing__action:focus {
 	color: #ef7d46;
 	background: #fff;
 }
 
 /* Rabten */
-.pricing--rabten .pricing__item {
+.listing--rabten .listing__item {
 	font-family: 'Roboto', sans-serif;
 	padding: 2em 4em;
 	cursor: default;
@@ -369,57 +369,57 @@
 	max-width: 320px;
 }
 
-.pricing--rabten .pricing__item:nth-child(2) {
+.listing--rabten .listing__item:nth-child(2) {
 	border-right: 1px solid rgba(139, 144, 157, 0.18);
 	border-left: 1px solid rgba(139, 144, 157, 0.18);
 }
 
-.pricing--rabten .pricing__title {
+.listing--rabten .listing__title {
 	font-size: 1em;
 	margin: 1.5em 0 0;
 }
 
-.pricing--rabten .icon {
+.listing--rabten .icon {
 	font-size: 2.5em;
 	color: #8b909d;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
 }
 
-.pricing--rabten .pricing__item:hover .icon {
+.listing--rabten .listing__item:hover .icon {
 	color: #E03E3E;
 }
 
-.pricing--rabten .pricing__price {
+.listing--rabten .pricing__price {
 	font-size: 2em;
 	font-weight: bold;
 	margin: 0.5em 0 0.75em;
 	overflow: hidden;
 }
 
-.pricing--rabten .pricing__currency {
+.listing--rabten .pricing__currency {
 	font-size: 0.5em;
 	vertical-align: super;
 }
 
-.pricing--rabten .pricing__period {
+.listing--rabten .pricing__period {
 	font-size: 0.35em;
 	color: #8b909d;
 }
 
-.pricing--rabten .pricing__anim {
+.listing--rabten .pricing__anim {
 	display: inline-block;
 	position: relative;
 }
 
-.pricing--rabten .pricing__item:hover .pricing__anim {
+.listing--rabten .listing__item:hover .pricing__anim {
 	-webkit-animation: moveUp 0.4s forwards;
 	animation: moveUp 0.4s forwards;
 	-webkit-animation-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 	animation-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
 
-.pricing--rabten .pricing__item:hover .pricing__anim--2 {
+.listing--rabten .listing__item:hover .pricing__anim--2 {
 	-webkit-animation-delay: 0.05s;
 	animation-delay: 0.05s;
 }
@@ -438,14 +438,14 @@
 	100% { -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); }
 }
 
-.pricing--rabten .pricing__sentence {
+.listing--rabten .pricing__sentence {
 	font-weight: bold;
 	margin: 0 0 1em 0;
 	padding: 0 0 0.5em;
 	color: #8b909d;
 }
 
-.pricing--rabten .pricing__feature-list {
+.listing--rabten .listing__feature--list {
 	font-size: 0.85em;
 	margin: 0;
 	padding: 0.25em 0 2.5em;
@@ -454,7 +454,7 @@
 	color: #8b909d;
 }
 
-.pricing--rabten .pricing__action {
+.listing--rabten .pricing__action {
 	font-weight: bold;
 	margin-top: auto;
 	padding: 1em 2em;
@@ -465,13 +465,13 @@
 	transition: background-color 0.3s;
 }
 
-.pricing--rabten .pricing__action:hover,
-.pricing--rabten .pricing__action:focus {
+.listing--rabten .pricing__action:hover,
+.listing--rabten .pricing__action:focus {
 	background-color: #C53737;
 }
 
 @media screen and (max-width: 60em) {
-	.pricing--rabten .pricing__item {
+	.listing--rabten .listing__item {
 		max-width: none;
 		width: 90%;
 		flex: none;
@@ -481,7 +481,7 @@
 }
 
 /* Pema */
-.pricing--pema .pricing__item {
+.listing--pema .listing__item {
 	font-family: 'Alegreya Sans', sans-serif;
 	padding: 2em 3em;
 	margin: 1em;
@@ -493,30 +493,30 @@
 }
 
 @media screen and (min-width: 66.250em) {
-	.pricing--pema .pricing__item {
+	.listing--pema .listing__item {
 		margin: 1.5em 0;
 	}
-	.pricing--pema .pricing__item--featured {
+	.listing--pema .listing__item--featured {
 		z-index: 10;
 		margin: 0;
 		font-size: 1.15em;
 	}
 }
 
-.pricing--pema .pricing__title {
+.listing--pema .listing__title {
 	font-size: 2em;
 	margin: 0.5em 0 0;
 	color: #1d211f;
 }
 
-.pricing--pema .icon {
+.listing--pema .icon {
 	display: inline-block;
 	min-width: 2em;
 	color: #8A9790;
 	vertical-align: middle;
 }
 
-.pricing--pema .pricing__price {
+.listing--pema .pricing__price {
 	font-size: 5em;
 	font-weight: 800;
 	color: #6ed19c;
@@ -524,37 +524,37 @@
 	z-index: 100;
 }
 
-.pricing--pema .pricing__currency {
+.listing--pema .pricing__currency {
 	font-size: 0.5em;
 	vertical-align: super;
 }
 
-.pricing--pema .pricing__period {
+.listing--pema .pricing__period {
 	font-size: 0.25em;
 	display: inline-block;
 	padding: 0 0 0 0.5em;
 	color: #CEDED6;
 }
 
-.pricing--pema .pricing__sentence {
+.listing--pema .pricing__sentence {
 	font-weight: bold;
 	margin: 0 0 1em 0;
 	padding: 0 0 0.5em;
 	color: #6ed19c;
 }
 
-.pricing--pema .pricing__feature-list {
+.listing--pema .listing__feature--list {
 	font-size: 0.95em;
 	margin: 0;
 	padding: 1.5em 0.5em 2.5em;
 	list-style: none;
 }
 
-.pricing--pema .pricing__feature {
+.listing--pema .pricing__feature {
 	padding: 0.15em 0;
 }
 
-.pricing--pema .pricing__action {
+.listing--pema .pricing__action {
 	font-weight: bold;
 	margin-top: auto;
 	padding: 1em 2em;
@@ -565,13 +565,13 @@
 	transition: background-color 0.3s;
 }
 
-.pricing--pema .pricing__action:hover,
-.pricing--pema .pricing__action:focus {
+.listing--pema .pricing__action:hover,
+.listing--pema .pricing__action:focus {
 	background-color: #4F5F56;
 }
 
 /* karma */
-.pricing--karma .pricing__item {
+.listing--karma .listing__item {
 	margin: 1em;
 	color: #382628;
 	background: #fff;
@@ -582,7 +582,7 @@
 	border-radius: 5px;
 }
 
-.pricing--karma .pricing__title {
+.listing--karma .listing__title {
 	font-size: 1em;
 	font-weight: 700;
 	margin: 0.5em 0 0;
@@ -590,12 +590,12 @@
 	border-bottom: 2px solid #382628;
 }
 
-.pricing--karma .icon {
+.listing--karma .icon {
 	display: inline-block;
 	min-width: 2em;
 }
 
-.pricing--karma .pricing__price {
+.listing--karma .pricing__price {
 	font-size: 3em;
 	padding: 0.5em 0 0 0;
 	margin: 1em;
@@ -605,7 +605,7 @@
 	z-index: 100;
 }
 
-.pricing--karma .pricing__item--featured .pricing__price::after {
+.listing--karma .listing__item--featured .pricing__price::after {
 	background: url(../img/stamp.png);
 	background-size: cover;
 	content: '';
@@ -617,12 +617,12 @@
 	pointer-events: none;
 }
 
-.pricing--karma .pricing__currency {
+.listing--karma .pricing__currency {
 	font-size: 0.5em;
 	vertical-align: super;
 }
 
-.pricing--karma .pricing__period {
+.listing--karma .pricing__period {
 	font-size: 0.25em;
 	display: block;
 	padding: 1em;
@@ -630,14 +630,14 @@
 	border-top: 2px solid #382628;
 }
 
-.pricing--karma .pricing__sentence {
+.listing--karma .pricing__sentence {
 	margin: 0 0 1em 0;
 	padding: 1em;
 	font-size: 0.85em;
 	border-bottom: 2px solid #382628;
 }
 
-.pricing--karma .pricing__feature-list {
+.listing--karma .listing__feature--list {
 	font-size: 0.85em;
 	margin: 0;
 	letter-spacing: 0;
@@ -645,7 +645,7 @@
 	list-style-type: square;
 }
 
-.pricing--karma .pricing__action {
+.listing--karma .pricing__action {
 	font-weight: bold;
 	flex: none;
 	margin: auto 1em 1em;
@@ -661,14 +661,14 @@
 	transition: background-color 0.3s, color 0.3s;
 }
 
-.pricing--karma .pricing__action:hover,
-.pricing--karma .pricing__action:focus {
+.listing--karma .pricing__action:hover,
+.listing--karma .pricing__action:focus {
 	background-color: #ffdbd5;
 	color: #382628;
 }
 
 /* norbu */
-.pricing--norbu .pricing__item {
+.listing--norbu .listing__item {
 	margin: 1em;
 	color: #fff;
 	cursor: default;
@@ -680,12 +680,12 @@
 	transition: border-color 0.3s, background 0.3s;
 }
 
-.pricing--norbu .pricing__item:hover {
+.listing--norbu .listing__item:hover {
 	border: 1px solid rgba(255,255,255,1);
 	background: rgba(255,255,255,0.18);
 }
 
-.pricing--norbu .pricing__title {
+.listing--norbu .listing__title {
 	font-size: 2em;
 	font-weight: 400;
 	margin: 0.5em 0;
@@ -693,7 +693,7 @@
 	position: relative;
 }
 
-.pricing--norbu .pricing__title::after {
+.listing--norbu .listing__title::after {
 	content: '';
 	position: absolute;
 	width: 20%;
@@ -703,12 +703,12 @@
 	bottom: 0;
 }
 
-.pricing--norbu .icon {
+.listing--norbu .icon {
 	display: inline-block;
 	min-width: 2em;
 }
 
-.pricing--norbu .pricing__price {
+.listing--norbu .pricing__price {
 	font-size: 3.5em;
 	padding: 0.5em 0 0 0;
 	font-weight: 400;
@@ -716,24 +716,24 @@
 	z-index: 100;
 }
 
-.pricing--norbu .pricing__currency {
+.listing--norbu .pricing__currency {
 	font-size: 0.5em;
 	vertical-align: super;
 }
 
-.pricing--norbu .pricing__period {
+.listing--norbu .pricing__period {
 	font-size: 0.25em;
 	display: block;
 	padding: 1em;
 }
 
-.pricing--norbu .pricing__sentence {
+.listing--norbu .pricing__sentence {
 	padding: 1em 2em;
 	font-size: 1em;
 	margin: 0 auto 1em;
 }
 
-.pricing--norbu .pricing__feature-list {
+.listing--norbu .listing__feature--list {
 	font-size: 1.15em;
 	margin: 0 2em;
 	letter-spacing: 0;
@@ -741,11 +741,11 @@
 	list-style: none;
 }
 
-.pricing--norbu .pricing__feature {
+.listing--norbu .pricing__feature {
 	line-height: 1.4;
 }
 
-.pricing--norbu .pricing__feature::before {
+.listing--norbu .pricing__feature::before {
 	content: "\e87a";
 	font-family: 'linearicons';
 	display: inline-block;
@@ -753,7 +753,7 @@
 	padding: 0 0.75em 0 0;
 }
 
-.pricing--norbu .pricing__action {
+.listing--norbu .pricing__action {
 	font-weight: bold;
 	flex: none;
 	margin: auto 1em 1em;
@@ -765,48 +765,48 @@
 	transition: background 0.3s;
 }
 
-.pricing--norbu .pricing__action:hover,
-.pricing--norbu .pricing__action:focus {
+.listing--norbu .pricing__action:hover,
+.listing--norbu .pricing__action:focus {
 	background: #fff;
 }
 
 /* Dawa */
-.pricing--dawa .pricing__item {
+.listing--dawa .listing__item {
 	padding: 0 2em;
 }
 
-.pricing--dawa .pricing__title {
+.listing--dawa .listing__title {
 	font-weight: bold;
 	font-size: 1.8em;
 	padding: 0 0 0.5em;
 	background: url(../img/line.png) no-repeat 50% 100%;
 }
 
-.pricing--dawa .pricing__price {
+.listing--dawa .pricing__price {
 	font-size: 3.75em;
 	line-height: 1;
 	margin: 1em 0 0.65em;
 	font-family: 'Homemade Apple', cursive;
 }
 
-.pricing--dawa .pricing__period {
+.listing--dawa .pricing__period {
 	font-size: 0.25em;
 	display: block;
 }
 
-.pricing--dawa .pricing__sentence {
+.listing--dawa .pricing__sentence {
 	font-family: 'Homemade Apple', cursive;
 	margin: 0;
 }
 
-.pricing--dawa .pricing__feature-list {
+.listing--dawa .listing__feature--list {
 	margin: 0 0 1.5em;
 	padding: 1em;
 	list-style: none;
 	text-align: center;
 }
 
-.pricing--dawa .pricing__action {
+.listing--dawa .pricing__action {
 	border-radius: 30px;
 	font-size: 1.5em;
 	padding: 0.5em 1.5em;
@@ -815,20 +815,20 @@
 	transition: color 0.3s;
 }
 
-.pricing--dawa .pricing__action:hover,
-.pricing--dawa .pricing__action:focus {
+.listing--dawa .pricing__action:hover,
+.listing--dawa .pricing__action:focus {
 	color: #fffa5c;
 }
 
 @media screen and (max-width: 40em) {
-	.pricing--dawa .pricing__item {
+	.listing--dawa .listing__item {
 		border: 1px solid rgba(255,255,255,0.6);
 		margin: 1em;
 	}
 }
 
 /* Yonten */
-.pricing--yonten .pricing__item {
+.listing--yonten .listing__item {
 	font-family: 'PT Sans', sans-serif;
 	padding: 2em 4em;
 	cursor: default;
@@ -839,20 +839,20 @@
 }
 
 @media screen and (min-width: 66.250em) {
-	.pricing--yonten .pricing__item {
+	.listing--yonten .listing__item {
 		margin: 0;
 	}
-	.pricing--yonten .pricing__item:nth-child(2) {
+	.listing--yonten .listing__item:nth-child(2) {
 		border-right: none;
 		border-left: none;
 	}
 }
 
-.pricing--yonten .pricing__item:hover {
+.listing--yonten .listing__item:hover {
 	z-index: 100;
 }
 
-.pricing--yonten .pricing__item:hover::after {
+.listing--yonten .listing__item:hover::after {
 	content: '';
 	pointer-events: none;
 	position: absolute;
@@ -864,37 +864,37 @@
 	border: 5px solid #8bc34a;
 }
 
-.pricing--yonten .pricing__title {
+.listing--yonten .listing__title {
 	font-size: 1.5em;
 	margin: 0 0 0.5em 0;
 	padding: 0 0 0.5em;
 }
 
-.pricing--yonten .icon {
+.listing--yonten .icon {
 	font-size: 3em;
 	margin: 0 0 0.5em 0;
 	color: #85c34a;
 }
 
-.pricing--yonten .pricing__price {
+.listing--yonten .pricing__price {
 	font-size: 2em;
 	margin: 0 0 0.5em 0;
 	font-weight: bold;
 	color: #85c34a;
 }
 
-.pricing--yonten .pricing__currency {
+.listing--yonten .pricing__currency {
 	font-size: 0.5em;
 	vertical-align: super;
 }
 
-.pricing--yonten .pricing__period {
+.listing--yonten .pricing__period {
 	font-size: 0.35em;
 	padding: 0 0 0 0.5em;
 	color: #646D5B;
 }
 
-.pricing--yonten .pricing__feature-list {
+.listing--yonten .listing__feature--list {
 	margin: 0;
 	padding: 0.25em 0 3em;
 	list-style: none;
@@ -902,11 +902,11 @@
 	color: #eef0f3;
 }
 
-.pricing--yonten .pricing__feature {
+.listing--yonten .pricing__feature {
 	padding: 0.25em;
 }
 
-.pricing--yonten .pricing__action {
+.listing--yonten .pricing__action {
 	font-weight: bold;
 	margin-top: auto;
 	padding: 1em 2em;
@@ -917,14 +917,14 @@
 	transition: background-color 0.3s, color 0.3s;
 }
 
-.pricing--yonten .pricing__action:hover,
-.pricing--yonten .pricing__action:focus {
+.listing--yonten .pricing__action:hover,
+.listing--yonten .pricing__action:focus {
 	color: #85c34a;
 	background: #fff;
 }
 
 /* tashi */
-.pricing--tashi .pricing__item {
+.listing--tashi .listing__item {
 	font-family: 'Roboto Condensed', sans-serif;
 	margin: 0.5em;
 	padding: 2em 2.5em;
@@ -933,46 +933,46 @@
 	background: #262c37;
 }
 
-.pricing--tashi .pricing__title {
+.listing--tashi .listing__title {
 	font-size: 2em;
 	font-weight: 300;
 	margin: 0 0 0.15em;
 	color: #E25A77;
 }
 
-.pricing--tashi .pricing__item:nth-child(2) .pricing__title {
+.listing--tashi .listing__item:nth-child(2) .listing__title {
 	color: #E25ABC;
 }
 
-.pricing--tashi .pricing__item:nth-child(3) .pricing__title {
+.listing--tashi .listing__item:nth-child(3) .listing__title {
 	color: #7E5AE2;
 }
 
-.pricing--tashi .pricing__price {
+.listing--tashi .pricing__price {
 	font-size: 3em;
 	font-weight: 300;
 	padding: 0.85em 0;
 }
 
-.pricing--tashi .pricing__currency {
+.listing--tashi .pricing__currency {
 	font-size: 0.65em;
 	vertical-align: super;
 	color: #394150;
 }
 
-.pricing--tashi .pricing__period {
+.listing--tashi .pricing__period {
 	font-size: 0.35em;
 	padding: 0 0 0 0.5em;
 	color: #535965;
 }
 
-.pricing--tashi .pricing__sentence {
+.listing--tashi .pricing__sentence {
 	padding: 0 0 0.5em;
 	margin: 0;
 	color: #535965;
 }
 
-.pricing--tashi .pricing__feature-list {
+.listing--tashi .listing__feature--list {
 	font-size: 0.95em;
 	margin: 0;
 	padding: 0 0 2.5em;
@@ -980,14 +980,14 @@
 	color: #757983;
 }
 
-.pricing--tashi .pricing__feature {
+.listing--tashi .pricing__feature {
 	position: relative;
 	display: block;
 	padding: 0 0 0 20px;
 	line-height: 1.5;
 }
 
-.pricing--tashi .pricing__feature::before {
+.listing--tashi .pricing__feature::before {
 	content: '';
 	position: absolute;
 	width: 10px;
@@ -998,7 +998,7 @@
 	margin: -2px 0 0 0;
 }
 
-.pricing--tashi .pricing__action {
+.listing--tashi .pricing__action {
 	-webkit-align-self: flex-end;
 	align-self: flex-end;
 	margin-top: auto;
@@ -1013,21 +1013,21 @@
 	transition: background-color 0.3s, color 0.3s;
 }
 
-.pricing--tashi .pricing__item:nth-child(2) .pricing__action {
+.listing--tashi .listing__item:nth-child(2) .pricing__action {
 	background: #E25ABC;
 }
 
-.pricing--tashi .pricing__item:nth-child(3) .pricing__action {
+.listing--tashi .listing__item:nth-child(3) .pricing__action {
 	background: #7E5AE2;
 }
 
-.pricing--tashi .pricing__action:hover,
-.pricing--tashi .pricing__action:focus {
+.listing--tashi .pricing__action:hover,
+.listing--tashi .pricing__action:focus {
 	background: #1A1F28 !important;
 }
 
 /* palden */
-.pricing--palden .pricing__item {
+.listing--palden .listing__item {
 	font-family: "Nunito", sans-serif;
 	cursor: default;
 	color: #84697c;
@@ -1038,24 +1038,24 @@
 }
 
 @media screen and (min-width: 66.250em) {
-	.pricing--palden .pricing__item {
+	.listing--palden .listing__item {
 		margin: 1em -0.5em;
 	}
-	.pricing--palden .pricing__item--featured {
+	.listing--palden .listing__item--featured {
 		margin: 0;
 		z-index: 10;
 		box-shadow: 0 0 20px rgba(46, 59, 125, 0.23);
 	}
 }
 
-.pricing--palden .pricing__deco {
+.listing--palden .pricing__deco {
 	border-radius: 10px 10px 0 0;
 	background: #7a90ff;
 	padding: 4em 0 9em;
 	position: relative;
 }
 
-.pricing--palden .pricing__deco-img {
+.listing--palden .pricing__deco-img {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -1063,11 +1063,11 @@
 	height: 160px;
 }
 
-.pricing--palden .pricing__item--featured .pricing__deco {
+.listing--palden .listing__item--featured .pricing__deco {
 	padding: 5em 0 8.885em 0;
 }
 
-.pricing--palden .pricing__title {
+.listing--palden .listing__title {
 	font-size: 0.75em;
 	margin: 0;
 	text-transform: uppercase;
@@ -1075,26 +1075,26 @@
 	color: #ffd5bd;
 }
 
-.pricing--palden .deco-layer {
+.listing--palden .deco-layer {
 	-webkit-transition: -webkit-transform 0.5s;
 	transition: transform 0.5s;
 }
 
-.pricing--palden .pricing__item:hover .deco-layer--1 {
+.listing--palden .listing__item:hover .deco-layer--1 {
 	-webkit-transform: translate3d(15px,0,0);
 	transform: translate3d(15px,0,0);
 }
 
-.pricing--palden .pricing__item:hover .deco-layer--2 {
+.listing--palden .listing__item:hover .deco-layer--2 {
 	-webkit-transform: translate3d(-15px,0,0);
 	transform: translate3d(-15px,0,0);
 }
 
-.pricing--palden .icon {
+.listing--palden .icon {
 	font-size: 2.5em;
 }
 
-.pricing--palden .pricing__price {
+.listing--palden .pricing__price {
 	font-size: 5em;
 	font-weight: bold;
 	padding: 0;
@@ -1103,37 +1103,37 @@
 	line-height: 0.75;
 }
 
-.pricing--palden .pricing__currency {
+.listing--palden .pricing__currency {
 	font-size: 0.15em;
 	vertical-align: top;
 	color: rgba(0,0,0,0.4);
 }
 
-.pricing--palden .pricing__period {
+.listing--palden .pricing__period {
 	font-size: 0.15em;
 	padding: 0 0 0 0.5em;
 	color: rgba(0,0,0,0.4);
 	font-style: italic;
 }
 
-.pricing--palden .pricing__sentence {
+.listing--palden .pricing__sentence {
 	font-weight: bold;
 	margin: 0 0 1em 0;
 	padding: 0 0 0.5em;
 }
 
-.pricing--palden .pricing__feature-list {
+.listing--palden .listing__feature--list {
 	margin: 0;
 	padding: 0.25em 0 2.5em;
 	list-style: none;
 	text-align: center;
 }
 
-.pricing--palden .pricing__feature {
+.listing--palden .pricing__feature {
 	padding: 1em 0;
 }
 
-.pricing--palden .pricing__action {
+.listing--palden .pricing__action {
 	font-weight: bold;
 	margin: auto 3em 2em 3em;
 	padding: 1em 2em;
@@ -1144,7 +1144,7 @@
 	transition: background-color 0.3s;
 }
 
-.pricing--palden .pricing__action:hover,
-.pricing--palden .pricing__action:focus {
+.listing--palden .pricing__action:hover,
+.listing--palden .pricing__action:focus {
 	background-color: #f38747;
 }

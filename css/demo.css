@@ -52,7 +52,7 @@ a:hover, a:focus {
 }
 
 .codrops-header,
-.pricing-section {
+.listing-section {
 	min-height: 100vh;
 	display: -webkit-flex;
 	display: flex;
@@ -64,13 +64,13 @@ a:hover, a:focus {
 	align-items: center;
 }
 
-.pricing-section {
+.listing-section {
 	padding: 2em 0 8em;
 	min-height: 100vh;
 	position: relative;
 }
 
-.pricing-section__title {
+.listing-section__title {
 	font-size: 2em;
 	color: #fff;
 	font-weight: 700;
@@ -78,12 +78,12 @@ a:hover, a:focus {
 	flex: none;
 }
 
-.pricing-section a {
+.listing-section a {
 	color: #333;
 }
 
-.pricing-section a:hover,
-.pricing-section a:focus {
+.listing-section a:hover,
+.listing-section a:focus {
 	color: #000;
 }
 
